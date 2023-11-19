@@ -18,6 +18,10 @@ export default defineNuxtConfig({
       //prerender: true,
       isr: true    
     },
-  },
-  
+    '/page': {
+      headers: {
+        'x-hackathon': 'true'
+      }
+    },
+  } 
 })
