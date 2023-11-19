@@ -9,5 +9,10 @@ export default defineNuxtConfig({
       }
     }
 
-  }
+  },
+  routeRules: {
+    '/api/**': {
+      cors: true,    }
+  },
+  
 })

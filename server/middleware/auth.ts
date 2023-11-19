@@ -14,10 +14,10 @@ export default defineEventHandler(async event => {
     //await useStorage().setItem('user:token', 'hi');
 
     if (event.path.startsWith('/api/user') && token !== 'hi') {      
-        throw createError({
-            status: 401,
-            message: 'Not authorized'
-        })
+        // throw createError({
+        //     status: 401,
+        //     message: 'Not authorized'
+        // })
             
     }
 });
