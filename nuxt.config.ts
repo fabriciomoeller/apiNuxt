@@ -12,7 +12,12 @@ export default defineNuxtConfig({
   },
   routeRules: {
     '/api/**': {
-      cors: true,    }
+      cors: true,    
+    },
+    '/api/user/bob': {
+      //prerender: true,
+      isr: true    
+    },
   },
   
 })
