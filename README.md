@@ -87,3 +87,31 @@ or push an existing repository from the command line
 git remote add origin https://github.com/fabriciomoeller/apiNuxt.git
 git branch -M main
 git push -u origin main
+
+
+
+
+********************
+# Documentaçao para Rotas
+https://nitro.unjs.io/guide/routing
+
+# Api basica 
+http 192.168.15.3:3000/api/foo
+
+
+# Api de login
+http 192.168.15.3:3000/api/auth/login/32
+
+
+# Rotas para paginas
+http 192.168.15.3:3000/page
+
+
+# Api usuario
+http 192.168.15.3:3000/api/user/foo
+
+
+# Middleware
+http 192.168.15.3:3000/api/user/foo Cookie:token=hi
+
+# Storage Layer - Armazenamento

@@ -3,6 +3,6 @@ export default defineEventHandler(async event => {
     
     return {   
         id,
-        context: event.context.user
+        session: event.context.user.id,
     }
 })
